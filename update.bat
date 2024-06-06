@@ -34,7 +34,7 @@ echo.
 timeout 2 > NUL
 echo [36m   ===^> Starting Discord... [0m
 echo.
-start C:\Users\Topi\AppData\Local\DiscordCanary\Update.exe --processStart DiscordCanary.exe
+start %localappdata%\DiscordCanary\Update.exe --processStart DiscordCanary.exe
 echo [32m   ===^> Done. [0m
 timeout 3 > NUL
 exit
